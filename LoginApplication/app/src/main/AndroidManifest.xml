@@ -18,11 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".User" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".Tasks"
+            android:label="@string/title_activity_tasks"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".UserProfile"
             android:label="@string/title_activity_user_profile"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Logs"
+            android:label="@string/title_activity_logs"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".History"></activity>
     </application>
 
 </manifest>
